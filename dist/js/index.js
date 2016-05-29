@@ -1,0 +1,1 @@
+"use strict";window.onload=function(){var o=document.querySelectorAll("input");o[0].onclick=function(){window.localStorage.setItem("name",o[3].value)},o[1].onclick=function(){console.log(window.localStorage.getItem("name"))},o[2].onclick=function(){window.localStorage.removeItem("name")}};
