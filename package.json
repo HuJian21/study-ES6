@@ -24,7 +24,8 @@
     "concat": "0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-load-plugins": "^1.2.4"
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-sass": "^2.3.1"
   },
   "devDependencies": {
     "browserify": "^13.0.1",

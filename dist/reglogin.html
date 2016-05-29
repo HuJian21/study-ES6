@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录</title>
+    <link href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.min.css">
+    <script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+<section class="login wrap">
+    <form class="sui-form form-horizontal">
+        <div class="control-group">
+            <label for="inpuinputUsernametEmail" class="control-label">用户名：</label>
+            <div class="controls">
+                <input type="text" id="inputUsername" placeholder="Username" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputPassword" class="control-label">密码：</label>
+            <div class="controls">
+                <input type="password" id="inputPassword" placeholder="Password" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label"></label>
+            <div class="controls">
+                <label data-toggle="checkbox" class="checkbox-pretty inline">
+                  <input type="checkbox" name="remember-me"><span>记住我</span>
+                </label>
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="inputPassword" class="control-label">简介：</label>
+            <div class="controls">
+                <textarea rows="3" class="input-xlarge" id="intro"></textarea>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label"></label>
+            <div class="controls">
+                <button type="submit" class="sui-btn btn-primary">Sign in</button>
+            </div>
+        </div>
+    </form>
+</section>
+</body>
+</html>

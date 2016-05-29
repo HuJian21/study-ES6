@@ -6,6 +6,7 @@ const cssnano = require('gulp-cssnano');
 const concat = require('gulp-concat');
 const browserify = require('browserify');
 const source = require('vinyl-source-stream');
+const sass = require('gulp-sass');
 
 // 编译压缩js
 gulp.task('covertJs', () => {
@@ -21,6 +22,7 @@ gulp.task('covertJs', () => {
 gulp.task('covertCss', () => {
     return gulp.src('app/scss/*.scss')
       .pipe(concat('app.css'))
+      .pipe(sass())
       .pipe(cssnano())
       .pipe(rename((path) => {
           path.basename += '.min';
